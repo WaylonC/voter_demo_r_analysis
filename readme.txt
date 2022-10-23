@@ -63,11 +63,7 @@ into the boundaries of 2020 precincts.
 
 Precincts with less than 200 total voter registrations in 2020 or 2016 were filtered out. 
 
-If you want to recreate this methodology, you can do so.
+Make sure the right path is there for the geojson files.
 
-All the necessary files are included in the "How the Sausage is made" folder. Download all of them,
-and then run the R file in whatever R software you have. The only edit that will need to be made
-is to lines 68 and 73. These are what indicate the file path to the 2016 and 2020 .geojson files
-respectively. Right now they are set to these files' location on my computer, but they will of course
-differ depending on where you download these files to. 
+There is also a column created for the Bernie vote, though it was not used in the final analysis because it did not seem to have statistical significance for the Trump shift.
 
